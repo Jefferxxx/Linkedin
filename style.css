@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body{
+background-color: #f4f2ee;
+color: #5f5f5f;
+display: flex;
+flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  color: #5f5f5f;
+}
+
+.contenedor{
+  max-width: 1200px;
+  width: 100%;
+  padding: 10 15px;
+  margin: auto;
+}
+
+/* .header {
+  grid-area: header;
+  width: 100%;
+  background-color: #fff;
+  padding: 0 10px;
+  top: 0;
+  z-index: 100;
+  position: fixed; 
+}  */
+
+.principal__contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+  padding: 0 10px;
+  top: 0;
+  z-index: 100;
+  position: fixed;
+}
+
+.principal__left {
+  display: flex;
+  align-items: center;
+  flex: 0 1 380px;
+} 
+
+.logo__img {
+  width: 40px;
+  margin-right: 25px;
+  display: block;
+}
+
+.buscador {
+  background-color: #edf3f8;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.buscador__icon {
+  font-size: 1.2rem;
+}
+
+.buscador__input {
+  width: 100%;
+  background-color: transparent;
+  padding: 8px;
+  outline: none;
+  border: 0;
+}
+
+.navegacion {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navegacion__lista {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navegacion__item {
+  display: flex;
+  align-items: center;
+}
+
+.navegacion__link {
+  display: flex;
+   position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 2px;
+  font-weight: 400;
+  min-height: 52px;
+  min-width: 85px;
+  transition: 1s;
+}
+
+.navegacion__link:hover {
+  color: #222;
+}
+
+.navegacion__icon {
+  font-size: 1.5rem;
+}
+
+.navegacion__span {
+  font-size: 0.8rem;
+}
+
+.navigation__link::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+  bottom: 0px;
+  transition: width 0.3s;
+}
+
+
+
+.activo{
+  position: relative;
+}
+
+.activo::after {
+  content: '';
+  height: 7px;
+  width: 7px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  right: 0px;
+  top: 0px;
+  background-color: #52fb63;
+  position: absolute;
+}
+
+.perfil{
+  position: relative;
+}
+
+.navegacion__perfil {
+  width: 30px;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  position: relative;
+}
+
+.perfil-menu-wrap {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 320px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.perfil-menu-wrap.open-menu {
+  max-height: 400px;
+}
+
+.perfil-menu {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+}
+
