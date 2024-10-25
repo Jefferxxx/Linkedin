@@ -1,9 +1,31 @@
 :root{
-  --color-fondo: white;
-  --color-letra-iconos:#4f4f4f; 
-  --fondo-header: white;
-  --color-buscador:#edf3f8;
-  --navegacion-link:#222;
-  --borde-activo:white;
-  --burbuja-activo:#52fb63;
-} 
+  --color_fondo_pagina: #f4f2ee;
+  --color_fondo_header: #fff;
+  --color_fondo_search: #edf3f8;
+  --color_blanco: #fff;
+  --color_container_icono: #5f5f5f;
+  --color_border_container_icono: #343434;
+  --color_estado_perfil: #6ff63e;
+  --color_fondo_perfil_desplegado: #5f5f5f;
+  --color_negro: #000;
+  --color_gris_claro: #777;
+  --color_visitas_azules: #2874b1;
+  --color_azul: #2874b1;
+  --color_amarillo: #f8b007;
+  --color_celeste_hover: #edf3f8;
+  --color_linea: #ccc;
+  --color_links: #5f5f5f;
+  --color_texto_actividad: #888;
+  --color_hover_gris: #ccc; 
+  --color_gris_oscuro: #4f4f4f;
+  --color_autor_nombre: #343434;
+  --color_verde: #4a9108;
+  --color_rojo: #af0000;
+  --flecha: #343434;
+  --color_fondo_icono: #e4e6eb;
+  --color_perfil_flotante: #222;
+  --color_letras_link: #c9dbf8;
+  --color_texto_oscuro: #222;
+  --color_parrado_perfil: #5f5f5f;
+  --color_fondo_idioma: #e4e6eb;
+}
